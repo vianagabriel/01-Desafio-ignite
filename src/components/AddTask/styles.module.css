@@ -1,0 +1,109 @@
+.container{
+    width:73.6rem;
+    margin: 0 auto;
+}
+
+.createTask{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: -2.6rem;
+}
+
+
+.createTask input{
+    width: 63.8rem;
+    padding: 1.6rem;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--Gray-500);
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--Gray-100);
+}
+
+.createTask input::placeholder{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--Gray-300);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    width: 9rem;
+    padding: 1.6rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--BlueDark);
+    color: var(--Gray-100);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button svg{
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.createdTaskAndCompleted{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 2.4rem;
+}
+
+.createdTask{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    color: var(--Blue);
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+
+.createdTask span, .completed span{
+    background-color: var(--Gray-400);
+    color: var(--Gray-200);
+    padding: 2px 8px;
+    border-radius: 11px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+    
+.completed{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    color: var(--Purple);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+
+ul{
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem; 
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+div > img{
+   
+    cursor: auto;
+
+}
+
+
+ 
+

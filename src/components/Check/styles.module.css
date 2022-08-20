@@ -1,0 +1,66 @@
+.check{
+    width: 100%;
+    height: 7.2rem;
+    background-color: var(--Gray-500);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Gray-100);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 140%;
+    padding-inline: 1.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+.check > div{
+    display: flex;
+    gap: 1.2rem;
+    
+    
+}
+.check input{
+    cursor: pointer;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid  var(--Blue);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check input:before{
+   content: '';
+   position: absolute;
+   height: 18px;
+   width: 18px;
+   background-color: var(--PurpleDark);
+   background-image: url('../../assets/check.svg');
+   background-repeat: no-repeat;
+   background-position: center;
+   border: none;
+   border-radius: 50%;
+   opacity: 0;
+
+}
+
+.check input:checked:before{
+    opacity: 1;
+}
+
+.checkCompleted{
+    text-decoration: line-through;
+    color: var(--Gray-300);
+}
+
+.check img{
+    cursor: pointer;
+    padding-right: 1rem;
+}
+ 
